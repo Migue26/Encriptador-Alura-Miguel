@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador</h1>
+        <div class="input-area">
+            <label for="textToEncrypt">Texto:</label>
+            <textarea id="textToEncrypt" rows="4" placeholder="Introduce tu texto aquí..."></textarea>
+        </div>
+        <div class="buttons">
+            <button id="encryptBtn">Cifrar</button>
+            <button id="decryptBtn">Descifrar</button>
+        </div>
+        <div class="result">
+            <label for="outputText">Resultado:</label>
+            <textarea id="outputText" rows="4" readonly></textarea>
+        </div>
+        <button id="copyBtn">Copiar</button>
+        <p id="validationMessage"></p>
+    </div>
+    <footer>
+        &copy; 2024 Encriptador. Todos los derechos reservados.
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
